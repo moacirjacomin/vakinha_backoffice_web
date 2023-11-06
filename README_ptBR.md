@@ -145,8 +145,7 @@ Para dependencias mais básicas, compartilhadas por todos os modulos, pode ser d
 ## 🛠️ Estruturas Compartilhadas e Desacoplamento
 Os modulos com o _ (underscore) em seu nome são modulos que atendem aos demais modulos. A ideia é centralizar as dependencias principais de forma que possam ser trocadas facilmente, o chamado desacoplamento. 
 
-<img src="prints/ARC05-folders.png"  title="folders"> 
-<img src="prints/ARC06-folders.png"  title="folders"> 
+<img src="prints/ARC05-folders.png"  title="folders"><img src="prints/ARC06-folders.png"  title="folders"> 
 <br />
 
 As camadas inferiores injetam dependecias atraves de suas classes abstratas, tornando simples a substituição de pacotes como Dio para requisições http ou SharedPreference para armazenamento de dados local. 

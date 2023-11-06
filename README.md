@@ -144,8 +144,7 @@ For more basic dependencies shared by all modules, they can be described and exp
 ## 🛠️ Shared Structures and Decoupling
 Modules with an underscore (_) in their name are modules that serve other modules. The idea is to centralize the main dependencies so that they can be easily replaced, a concept known as decoupling.
 
-<img src="prints/ARC05-folders.png"  title="folders"> 
-<img src="prints/ARC06-folders.png"  title="folders"> 
+<img src="prints/ARC05-folders.png"  title="folders"><img src="prints/ARC06-folders.png"  title="folders"> 
 <br />
 
 The lower layers inject dependencies through their abstract classes, making it easy to replace packages such as Dio for HTTP requests or SharedPreferences for local data storage.

@@ -76,7 +76,7 @@ To understand the structure of the backend API, you can navigate to the /server/
 <img src="prints/UI09-postman.png" width="650" title="Login Page">
 <br /><br />
 
-## 🖥️ Como executar esse projeto
+## 🖥️ How to execute this project
 Download this repository to your local machine and execute the execution routine in you [editor/IDE](https://docs.flutter.dev/tools/vs-code). Then follow the steps above to start the local API service using the JSON Rest Server. The pre-configured user as the system administrator is:
 - User:     roberto@teste.com
 - Password: 12345678
@@ -105,7 +105,7 @@ More about clean arch:
 
 
 
-## 🏷️ Modulos e Organização das Camadas
+## 🏷️ Modules and Layer Organization
 The idea behind using these approaches may seem initially complicated and may spread code across hundreds of files and folders. However, it makes sense for applications with the following requirements:
 
 - Scalability: should be ready for new features.  
